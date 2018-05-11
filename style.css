@@ -60,6 +60,11 @@ jumbo{
         opacity:1
     }
 }
+
+.removeunderline{
+    text-decoration: none;
+}
+
 .display-middle{
     position:absolute;
     top:50%;
@@ -67,3 +72,36 @@ jumbo{
     transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%)
 }
+
+
+#connect #social-footer #sm-links li a{
+	text-indent:-9999px;
+	width:26px; 
+	height:26px;
+    position: relative;
+}
+
+#connect #social-footer #sm-links li a.facebook{ /*STOCK GRABBED FROM W3SCHOOLS.com */
+	background:url(images/sm-facebook-icon.png) no-repeat;
+} 
+#connect #social-footer #sm-links li a.twitter{
+	background:url(images/sm-twitter-icon.png) no-repeat; width:31px;
+}
+#connect #social-footer #sm-links li a.youtube{
+	background:url(images/sm-youtube-icon.png) no-repeat; width:28px;
+}
+#connect #social-footer #sm-links li a.linkedin{
+	background:url(images/sm-linkedin-icon.png) no-repeat;
+}
+a:link, a:visited {
+    background-color: #800000;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+a:hover, a:active {
+    background-color: #808080;
