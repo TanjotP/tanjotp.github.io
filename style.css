@@ -1,0 +1,58 @@
+body,h1 {
+    font-family: "Raleway", sans-serif
+}
+
+body, html {
+    height: 100%
+}
+
+.bgimg {
+    background-image: url('tanny1.jpg');
+    min-height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+.shiftover{
+	margin-left:40px;
+}
+
+.display-bottomleft{
+    position:absolute;left:0;bottom:0
+}
+
+.padding-large{
+    padding:12px 24px;
+}
+
+.large{
+    font-size:18px;
+}
+
+.center{
+    text-align:center;
+}
+
+
+jumbo{
+    font-size:128px;
+}
+.animate-top{
+    position:relative;
+    animation:animatetop 1s
+}@keyframes animatetop{
+    from{
+        top:-300px;opacity:0
+    } to{
+        top:0;opacity:1
+    }
+}
+.animate-bottom{
+    position:relative;
+    animation:animatebottom 1s
+}@keyframes animatebotto{
+    from{
+        bottom:300px;opacity:0
+    } to{
+        bottom:0;opacity:1
+    }
+}
