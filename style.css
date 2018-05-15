@@ -145,6 +145,12 @@ visibility:visible;
         text-decoration: none;
         display: inline-block;
     }
+    .bgimg {
+        background-image: url('tanny2.jpg');
+        min-height: 100%;
+        background-position: center;
+        background-size: cover;
+    }
     
 }
 
