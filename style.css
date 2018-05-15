@@ -6,6 +6,7 @@ body, html {
     height: 100%
 }
 
+
 .bgimg {
     background-image: url('tanny1.jpg');
     min-height: 100%;
@@ -125,4 +126,27 @@ visibility:hidden;
 #wrapper:hover .text {
 visibility:visible;
 }
+
+@media (max-width: 600px) {
+    
+    
+    .jumbo{
+        font-size:25px;
+    }
+    .large{
+            font-size:7px;
+    }
+    a:link, a:hover{
+        background-color: #800000;
+        color: white;
+        font-size: 7px;
+        padding: 4px 15; 
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+    }
+    
+}
+
+
     
