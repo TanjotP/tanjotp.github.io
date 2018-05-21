@@ -6,12 +6,17 @@ body, html {
     height: 100%
 }
 
-
 .bgimg {
-    background-image: url('tanny1.jpg');
+    background-image: url('tanny2.jpg');
     min-height: 100%;
-    background-position: center;
+	max-width:100%
+	background-position: center;
     background-size: cover;
+	
+}
+.blind {
+    height: 0px;
+    overflow: hidden;
 }
 .shiftover{
 	margin-left:40px;
@@ -19,14 +24,16 @@ body, html {
 
 .barstyle{
     margin:auto;
-    width:80%;
+	max-width:80%%
     padding-top:5px;
     padding-bottom:5px;
 
 }
 
 .display-bottomleft{
-    position:absolute;left:0;bottom:0
+    position:absolute;
+	left:0;
+	bottom:0;
 }
 
 .padding-large{
@@ -35,6 +42,11 @@ body, html {
 
 .large{
     font-size:18px;
+}
+
+.resume{
+	
+	
 }
 
 .center{
@@ -74,13 +86,19 @@ body, html {
     text-decoration: none;
 }
 
+.buttonround{
+	border-radius: 12px;
+
+}
+
 .display-middle{
     position:absolute;
-    top:50%;
+    top:80%;
     left:50%;
     transform:translate(-50%,-50%);
     -ms-transform:translate(-50%,-50%)
 }
+
 
 
 #connect #social-footer #sm-links li a{
@@ -103,56 +121,24 @@ body, html {
 	background:url(images/sm-linkedin-icon.png) no-repeat;
 }
 a:link, a:visited {
+	max-width:100%;
     background-color: #800000;
-    color: white;
+	box-shadow: 2px 2px 15px 0px rgba(0,0,0,0.75);    
+	color: white;
     padding: 14px 25px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: inline-block;	
+	border-radius: 50px;
+	border: 0px 
 }
+
+
 
 
 a:hover, a:active {
     background-color: #808080;
+		border-radius: 12px;
+
 }
 
-#wrapper .text {
-position:relative;
-bottom:30px;
-left:0px;
-visibility:hidden;
-}
-
-#wrapper:hover .text {
-visibility:visible;
-}
-
-@media (max-width: 600px) {
-    
-    
-    .jumbo{
-        font-size:25px;
-    }
-    .large{
-            font-size:7px;
-    }
-    a:link, a:hover{
-        background-color: #800000;
-        color: white;
-        font-size: 7px;
-        padding: 4px 15; 
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-    }
-    .bgimg {
-        background-image: url('tanny2.jpg');
-        min-height: 100%;
-        background-position: center;
-        background-size: cover;
-    }
-    
-}
-
-
-    
