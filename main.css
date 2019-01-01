@@ -94,7 +94,7 @@ textarea {
    ========================================================================== */
 
 * {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Raleway', sans-serif;
 
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -190,7 +190,6 @@ body {
     max-width:80%%
     padding-top:5px;
     padding-bottom:5px;
- 
 }
 
 .socials {
@@ -304,24 +303,31 @@ body {
     }
     .button {
     display: inline-block;
-    width: 40px;
-    height: 12px;
+        width: 21px;
+        height: 7px;
 
-    font-size: 8px;
-    font-weight: bold;
-    line-height: 14px;
-    text-decoration: none;
-    text-align: center;
-    color: #fff;
-    border: 1px solid #fff;
-    -webkit-transition: background 0.2s ease-out, color 0.2s ease-out;
-    transition: background 0.2s ease-out, color 0.2s ease-out;
-}
+        font-size: 5px;
+        font-weight: bold;
+        line-height: 5;
+        text-decoration: none;
+        text-align: center;
+        color: #fff;
+        border: 1px solid #fff;
+        -webkit-transition: background 0.2s ease-out, color 0.2s ease-out;
+        transition: background 0.2s ease-out, color 0.2s ease-out;
+    }
 
-.button:hover {
-    background: #7d729c;
-    color: #232323;
-}
+    .button:hover {
+        background: #7d729c;
+        color: #232323;
+    }
+    .barstyle {
+        margin:auto;
+        max-width:10px
+        padding-top:2px;
+        padding-bottom:2px;
+     
+    }
 }
 
 @media only screen and (min-width: 400px) {
