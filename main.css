@@ -14,6 +14,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+p{
+    display: inline;
+}
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -109,22 +112,8 @@ html {
 body {
     font-size: 16px;
 
-    color: #fff;
+    color: #7d729c;
     background: #000000;
-}
-
-h1, h2, h3, h4, h5, h6 {
-    margin: 0;
-}
-
-h1 {
-    font-size: 80px;
-    line-height: 80px;
-}
-
-h2 {
-    font-size: 18px;
-    line-height: 18px;
 }
 
 .center-container {
@@ -150,12 +139,31 @@ h2 {
     margin-left: -0.25em; /* To offset spacing. May vary by font */
 }
 
+.white-solid {
+    color:#fff;
+    display:inline;
+}
 
 .center-block {
     max-width: 98%; /* Prevents issues with long content causes the content block to be pushed to the top */
     /* max-width: calc(100% - 0.25em) /* Only for IE9+ */
 }
+.padding-large{
+    padding:12px 24px;
+}
 
+.large{
+    font-size:18px;
+}
+
+.center{
+    text-align:center;
+}
+
+
+.jumbo{
+    font-size:65px;
+}
 .button {
     display: inline-block;
     width: 100px;
@@ -175,6 +183,14 @@ h2 {
 .button:hover {
     background: #7d729c;
     color: #232323;
+}
+
+.barstyle {
+    margin:auto;
+    max-width:80%%
+    padding-top:5px;
+    padding-bottom:5px;
+ 
 }
 
 .socials {
@@ -279,13 +295,33 @@ h2 {
    }
 }
 
-@media (max-width: 700px) {        
-    h1{
+@media (max-width: 700px) {          
+    .jumbo{
         font-size:25px;
     }    
-    h2{
+    .large{
        font-size:7px;
     }
+    .button {
+    display: inline-block;
+    width: 40px;
+    height: 12px;
+
+    font-size: 8px;
+    font-weight: bold;
+    line-height: 14px;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    -webkit-transition: background 0.2s ease-out, color 0.2s ease-out;
+    transition: background 0.2s ease-out, color 0.2s ease-out;
+}
+
+.button:hover {
+    background: #7d729c;
+    color: #232323;
+}
 }
 
 @media only screen and (min-width: 400px) {
