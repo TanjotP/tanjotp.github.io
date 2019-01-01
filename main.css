@@ -279,6 +279,15 @@ h2 {
    }
 }
 
+@media (max-width: 700px) {        
+    h1{
+        font-size:25px;
+    }    
+    h2{
+       font-size:7px;
+    }
+}
+
 @media only screen and (min-width: 400px) {
     /* Style adjustments for viewports that meet the condition */
     h1 {
