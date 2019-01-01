@@ -279,7 +279,7 @@ h2 {
    }
 }
 
-@media only screen and (min-width: 35em) {
+@media only screen and (min-width: 400px) {
     /* Style adjustments for viewports that meet the condition */
     h1 {
         font-size: 150px;
