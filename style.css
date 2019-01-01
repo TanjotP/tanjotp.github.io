@@ -157,7 +157,6 @@ body { margin: 0; background: #000;}
 
 @media (max-width: 700px) {
     .bgimg {
-        background-image: url('tanny2.jpg');
         min-height: 100%;
     	max-width:700px;
     	background-position: center;
