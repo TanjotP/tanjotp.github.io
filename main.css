@@ -88,6 +88,10 @@ body {
     vertical-align: middle;
 }
 
+.middle-transparent {
+    opacity: 0.8
+}
+
 .center-container:after {
     content: '';
     height: 100%;
@@ -142,7 +146,7 @@ body {
 
 .barstyle {
     margin:auto;
-    max-width:80%%
+    max-width:80%;
     padding-top:5px;
     padding-bottom:5px;
 }
@@ -230,18 +234,19 @@ body {
     .large{
        font-size:7px;
     }
-    .button {
-    display: inline-block;
-        width: 21px;
-        height: 7px;
 
-        font-size: 5px;
+    .button {
+        display: inline-block;
+        width: 50px;
+        height: 33px;
+
+        font-size: 12px;
         font-weight: bold;
-        line-height: 5;
+        line-height: 29px;
         text-decoration: none;
         text-align: center;
         color: #fff;
-        border: 1px solid #fff;
+        border: 2px solid #fff;
         -webkit-transition: background 0.2s ease-out, color 0.2s ease-out;
         transition: background 0.2s ease-out, color 0.2s ease-out;
     }
@@ -252,10 +257,9 @@ body {
     }
     .barstyle {
         margin:auto;
-        max-width:10px
-        padding-top:2px;
-        padding-bottom:2px;
-     
+        max-width:60%;
+        padding-top:5px;
+        padding-bottom:5px;
     }
 }
 
