@@ -93,7 +93,7 @@ body {
     opacity: 1;
 }
 .middle-transparent {
-    padding-bottom: 24px;
+    padding-bottom: 24;
   background: #CCC;
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
