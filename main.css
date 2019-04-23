@@ -93,11 +93,11 @@ body {
     opacity: 1;
 }
 .middle-transparent {
+    width: auto
   background: #CCC;
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
-padding-bottom: 20px;
 }
 
 .center-container:after {
