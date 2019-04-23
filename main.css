@@ -97,7 +97,7 @@ body {
   filter: alpha(opacity=60);
   -moz-opacity: 0.6;
   opacity: 0.6;
-    margin-bottom: 20px;
+padding-bottom: 20px;
 }
 
 .center-container:after {
