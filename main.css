@@ -80,6 +80,7 @@ body {
     height: 100%;
     text-align: center;
     overflow: auto;
+    
 }
 
 .center-container:after,
@@ -89,7 +90,12 @@ body {
 }
 
 .middle-transparent {
-    opacity: 0.8
+    background: #D3D3D3;
+    padding: 24px 24px;
+    -moz-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    -webkit-box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 3px rgba(0,0,0,.5);
+    opacity: 0.3;
 }
 
 .center-container:after {
