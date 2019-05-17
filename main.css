@@ -87,6 +87,8 @@ body {
 .center-block {
     display: inline-block;
     vertical-align: middle;
+    border-radius: 5px;
+    padding: 32px;
 }
 
 .normalize{
