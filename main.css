@@ -97,9 +97,9 @@ body {
 .middle-transparent {
     padding-bottom: 24;
   background: #CCC;
-  filter: alpha(opacity=20);
-  -moz-opacity: 0.2;
-  opacity: 0.2;
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
 }
 
 .center-container:after {
