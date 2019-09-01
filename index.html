@@ -11,37 +11,33 @@
     <title>Tanjot Panesar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-    <body data-vide-bg="video/bgvideo">
-    	<div class="center-container">
-            <div class="center-block middle-transparent">
-                <div class = "normalize">
-                     <div class="display-middle">
-                            <div class="jumbo animate-top">
-                                <p>oh it's me, </p> <p class="white-solid">tanjot</p>
-                            </div>
-                        <hr class="w3-border-grey barstyle" >
-                        <p class="center animate-bottom">a systems design engineering student at uWaterloo</p>
-                    </div>
-                    <br><br>
-                    <p>
-                        <a class="button" href="resume.pdf" target="_top">Resume</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="button" href="https://devpost.com/TanjotPanesar">Projects</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="button" href="https://github.com/TanjotP/">Github</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <br><br>
-                        <a class="button" href="www.linkedin.com/in/tanjotpanesar">LinkedIn</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="button" href="https://www.youtube.com/c/TanjotPanesarsVideos">YouTube</a>
-                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                        <a class="button" href="https://twitter.com/TanjotP">Twitter</a>
-                    </p>
-                </div>
-            </div>
+    <body>
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+              <a href="#">About</a>
+              <a href="#">Services</a>
+              <a href="#">Clients</a>
+              <a href="#">Contact</a>
         </div>
-        <script src="src/jquery.vide.js"></script>
-        <script src="src/jquery.noty.packaged.min.js"></script>
 
+        <div id="main" data-vide-bg="video/bgvideo">
+            <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+        </div>
+        
+        <script>
+            function openNav() {
+              document.getElementById("mySidenav").style.width = "250px";
+              document.getElementById("main").style.marginLeft = "250px";
+              document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+            }
+
+            function closeNav() {
+              document.getElementById("mySidenav").style.width = "0";
+              document.getElementById("main").style.marginLeft= "0";
+              document.body.style.backgroundColor = "white";
+            }
+        </script>
+        
+        
     </body>
 </html>
