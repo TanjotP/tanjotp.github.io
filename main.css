@@ -270,6 +270,22 @@ body {
     display: table; /* 2 */
 }
 
+.blink {
+  animation: blink 1s step-start 0s infinite;
+  -webkit-animation: blink 1s step-start 0s infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    opacity: 0.0;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    opacity: 0.0;
+  }
+}
+
 .clearfix:after {
     clear: both;
 }
