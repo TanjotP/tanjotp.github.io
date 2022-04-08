@@ -1,59 +1,43 @@
-<!doctype html>
-<html lang="en">
+<html>
     <head>
-      	<link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-        <link rel="stylesheet" href="main.css">
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <link rel="stylesheet" type="text/css" href="main.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif">
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     </head>
     <meta charset="utf-8">
     <title>Tanjot Panesar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-
     <body>
-        <div id="mySidenav" class="sidenav">
-            <a href="https://devpost.com/TanjotPanesar">Projects</a>
-            <a href="https://github.com/TanjotP/">Github</a>
-            <a href="https://www.linkedin.com/in/tanjotpanesar">LinkedIn</a>
-            <a href="https://www.youtube.com/c/TanjotPanesarsVideos">YouTube</a>
-            <a href="https://twitter.com/TanjotP">Twitter</a>
-
-        </div>
-
-        <div id="main" data-vide-bg="video/bgvideo">
-            
-            <span class="blink" style="font-size:30px;cursor:pointer" onclick="openNav()">&#128270;</span>
-            
-            <div class="center-block">
-                    <div class="jumbo animate-top">
-                        <p>oh it's me, </p> <p class="white-solid">tanjot</p>
-                    </div>
-                <p class="center animate-bottom">a systems design engineering student at uWaterloo</p>
+        <div class="border">
+            <div class="biggerbox">
+                <div class="left ss">
+                    <div class="polaroid">
+                        <img src="images/tan.jpg" alt="tan" style="width:100%">
+                        <div class="container">
+                        <p class="name">Tanjot Panesar</p>
+                        </div>
+                    </div>            
+                </div>
+                <div class=" middle links">
+                    <ul class="menu-hover-fill flex flex-col items-start leading-none text-2xl uppercase space-y-4">
+                        <li><a href="https://devpost.com/TanjotPanesar" data-text="projects">projects</a></li>
+                        <li><a href="https://github.com/TanjotP/" data-text="github">github</a></li>
+                        <li><a href="https://www.linkedin.com/in/tanjotpanesar" data-text="linkedin">linkedin</a></li>
+                        <li><a href="resume.pdf" target="_blank" data-text="resume">resume</a></li>
+                      </ul>
+                      <br><br>
+                        <h4 class="about">I’m a Systems Design Engineering student at 
+                        the University of Waterloo, currently seeking 2022
+                         New Grad opportunities in Mobile Development.</h4>
+                        <h4 class="about">Previously:</h4>
+                        <h4 class="experiences">2021: Defining a new era in the automotive industry at @TradeRev</h4>
+                        <h4 class="experiences">2020: Creating social communities around storytelling, writing and reading @Wattpad</h4>
+                        <h4 class="experiences">2019: Powering next-gen healthcare consumer experiences @League</h4>
+                        
+                        <h4 class="about">I am a mental health advocate, and am passionate about
+                            dance & movement meditation.</h4>
+                </div>
             </div>
-            
         </div>
-        
-        <script>
-            var trigger = true;
-
-            function openNav() {
-                if(trigger == true){
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "250px";
-                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                    trigger = !trigger;
-                } else {
-                    document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("main").style.marginLeft= "0";
-                    document.body.style.backgroundColor = "white";
-                    trigger = !trigger;
-                }
-            }
-        </script>
-        
-        <script src="src/jquery.vide.js"></script>
-        <script src="src/jquery.noty.packaged.min.js"></script>
-        
     </body>
 </html>
